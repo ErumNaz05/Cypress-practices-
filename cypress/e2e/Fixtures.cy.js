@@ -22,7 +22,7 @@ describe('Test suite',function(){
    //cy.get('input[name="Email"]').type('admin@yourstore.com')
    //cy.get('input[name="Password"]').type('admin')
   // cy.get('.button-1').click()
-
+cy.log("type somethomh")
 
    //cy.visit('https://opensource-demo.orangehrmlive.com')
   // cy.fixture('example.json').then(function(data){

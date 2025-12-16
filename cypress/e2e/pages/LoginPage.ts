@@ -20,14 +20,14 @@ export class LoginPage{
         //cy.get('#uname').type('test')  // these values e.g. url , test are hard coaded
        // cy.get('#uname').type('enterUsername')
       // cy.get('LoginPage_username').type('enterUsername')
-       cy.get('#uname')
+       cy.get('#uname').type('test')
 
 
     }
     enterPassword(Password:string){
 
-        cy.get('#pwd').type('Password')
-        cy.get(this.LoginPage_password_id).type('Password') //this refers to class variable
+        cy.get('#pwd').type('test')
+        //cy.get(this.LoginPage_password_id).type('Password') //this refers to class variable
         // can also use this operator while passing variable containg Locator value
 
 

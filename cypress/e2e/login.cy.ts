@@ -1,5 +1,5 @@
 
-import{LoginPage}from "./pages/Login_page"
+import{LoginPage}from "./pages/LoginPage"
 
 //let LoginPage= new LoginPage  //can also use var instead of let
 const loginPage= new LoginPage  // better use const so the value cant be changed

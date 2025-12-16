@@ -33,6 +33,10 @@ it("test Calander", function(){
     //cy.get('[type="checkbox"]').check()
     //('value="04 Aug 2022"')
 
-})
+  })
 
+  /* it.only('datepicker',function(){
+    cy.visit('https://www.phptravels.net')
+    cy.get('#checkin').click()   
+  }) */
 })

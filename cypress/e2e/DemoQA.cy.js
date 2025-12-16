@@ -101,15 +101,23 @@ describe("this is DemoQA",function(){
     cy.get('#submit').click()
     cy.get('#name').contains('Erum Naz')
     // Checkboxes
-    //Indeterminate Checkboxes
-    cy.get(':nth-child(1) > .element-list > .menu-list > #item-1').click()
+    //Indeterminate Checkboxes ???
+    /*cy.get(':nth-child(1) > .element-list > .menu-list > #item-1').click()
    // cy.get(':nth-child(2) > .rct-text > .rct-collapse > .rct-icon').click()
    cy.get('.rct-node-expanded > :nth-child(1)').click() // click on arrow to open tree
     
     cy.get('.rct-icon.rct-icon-check').click()
    // cy.get('[class="rct-options"]').find('[class="rct-checkbox"]').click()
     cy.get('.react-checkbox-tree rct-icons-fa4').find('.rct-icon.rct-icon-check').check()
-   
+    //radio buttons
+    cy.get(':nth-child(1) > .element-list > .menu-list > #item-2').click()
+    */
+    //Radio buttons 
+    cy.get(':nth-child(1) > .element-list > .menu-list > #item-2').click()
+    //cy.get('input[id="yesRadio"]')
+    cy.get(':nth-child(2) > .custom-control-label').click()
+    cy.get('.mt-3').contains('You have selected Yes')
+    cy.get('.custom-control.disabled').should('be.disabled')
   })
   
 })

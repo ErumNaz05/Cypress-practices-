@@ -4,7 +4,7 @@ describe('CustomCommand',function(){
 
    it('Login',function(){
 
-    cy.visit("https://opensource-demo.orangehrmlive.com")
+    cy.visit("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
     cy.get('#txtUsername').type('Admin')
    // cy.get('#divPassword > .form-hint').type("admin123")
    cy.get('#txtPassword')
